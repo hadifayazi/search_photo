@@ -4,7 +4,7 @@ function SearchBar({ onSubmit }) {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    onSubmit(event);
+    onSubmit(keyword);
   };
   const handleChange = (event) => {
     setKeyword(event.target.value);

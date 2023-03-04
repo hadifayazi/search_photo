@@ -3,7 +3,7 @@ import SearchBar from "./components/searchBar";
 
 function App() {
   const handleSubmit = (keyword) => {
-    console.log("DO search");
+    searchImages(keyword);
   };
   return (
     <div>
