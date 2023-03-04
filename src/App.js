@@ -8,6 +8,7 @@ function App() {
   const [images, setImages] = useState([]);
   const handleSubmit = async (keyword) => {
     const result = await searchImages(keyword);
+    console.log(result);
     setImages(result);
   };
   return (
